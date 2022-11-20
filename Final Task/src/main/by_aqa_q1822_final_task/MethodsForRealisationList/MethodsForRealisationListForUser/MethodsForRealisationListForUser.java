@@ -1,0 +1,7 @@
+package by_aqa_q1822_final_task.MethodsForRealisationList.MethodsForRealisationListForUser;
+
+import by_aqa_q1822_final_task.LoginWithDifferentAccessRrights.AnnotationAdminAndUser.User;
+
+@User
+public class MethodsForRealisationListForUser {
+}
