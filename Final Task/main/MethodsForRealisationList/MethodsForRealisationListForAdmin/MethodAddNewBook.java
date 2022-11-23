@@ -1,8 +1,8 @@
-package main.by_aqa_q1822_final_task.MethodsForRealisationList.MethodsForRealisationListForAdmin;
+package main.MethodsForRealisationList.MethodsForRealisationListForAdmin;
 
 
-import main.by_aqa_q1822_final_task.LoginWithDifferentAccessRrights.AnnotationAdminAndUser.Admin;
-import main.by_aqa_q1822_final_task.Read_file_book_data;
+import main.LoginWithDifferentAccessRrights.AnnotationAdminAndUser.Admin;
+import main.Read_file_book_data;
 
 import java.io.IOException;
 import java.nio.file.Files;

@@ -1,4 +1,4 @@
-package main.by_aqa_q1822_final_task.LoginWithDifferentAccessRrights.AnnotationAdminAndUser;
+package main.LoginWithDifferentAccessRrights.AnnotationAdminAndUser;
 
 import java.lang.annotation.Retention;
 

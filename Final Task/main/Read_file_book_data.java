@@ -1,4 +1,4 @@
-package main.by_aqa_q1822_final_task;
+package main;
 
 
 import java.io.*;
@@ -20,10 +20,6 @@ public class Read_file_book_data {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-//        for (String str : bookMagazin) {
-//            System.out.println(str);
-//        }
         return bookMagazin;
     }
 
