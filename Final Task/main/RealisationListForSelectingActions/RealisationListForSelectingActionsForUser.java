@@ -9,22 +9,23 @@ import main.MethodsForRealisationList.MethodsForRealisationListForAdmin.MethodSe
 public class RealisationListForSelectingActionsForUser extends MenuForSelectingActions {
     private boolean endFlag = true;
 
-    RealisationListForSelectingActionsForUser realisationListForSelectingActionsForUser = new RealisationListForSelectingActionsForUser();
     MethodSearchBookByUniqueCode methodSearchBookByUniqueCode = new MethodSearchBookByUniqueCode();
     MethodSearchBookByItsTitle methodSearchBookByItsTitle = new MethodSearchBookByItsTitle();
     MenuForSelectingActions menuForSelectingActions = new MenuForSelectingActions();
-//    public void cycleForUser (){
-//        do {
-//            realisationListForSelectingActionsForUser.ImplementationListForSelectingActionsUser();
-//        } while (realisationListForSelectingActionsForUser.endFlag);
-//    }
+
+    public void cycleForUser (){
+        RealisationListForSelectingActionsForUser realisationListForSelectingActionsForUser = new RealisationListForSelectingActionsForUser();
+        do {
+            realisationListForSelectingActionsForUser.ImplementationListForSelectingActionsUser();
+        } while (realisationListForSelectingActionsForUser.endFlag);
+    }
 
     public void ImplementationListForSelectingActionsUser() {
         menuForSelectingActions.createdListForSelectingActionsForUser();
         int theItem = selectingAnItemFromTheList();
         switch (theItem) {
             case 1: {
-                menuForSelectingActions.showListForSelectingActions();
+                menuForSelectingActions.showBookMagazin();
                 break;
             }
             case 2:{

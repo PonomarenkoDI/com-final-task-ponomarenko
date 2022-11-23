@@ -18,11 +18,11 @@ public class LoginInSystem {
         int i = sc.nextInt();
         if (passwordAdmin == i) {
             System.out.println("Welcome, Admin!");
-            realisationListForSelectingActionsForAdmin.ImplementationListForSelectingActionsAdmin();
+            realisationListForSelectingActionsForAdmin.cycleForAdmin();
 
         } else if (passwordUser == i) {
             System.out.println("Welcome, User!");
-            realisationListForSelectingActionsForUser.ImplementationListForSelectingActionsUser();
+            realisationListForSelectingActionsForUser.cycleForUser();
         } else {
             System.out.println("Error! Password incorrect!");
             methodForLoginInSystemAdmin();

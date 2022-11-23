@@ -8,25 +8,26 @@ import main.MethodsForRealisationList.MethodsForRealisationListForAdmin.*;
 @Admin
 public class RealisationListForSelectingActionsForAdmin extends MenuForSelectingActions {
     private boolean endFlag = true;
-    RealisationListForSelectingActionsForAdmin realisationListForSelectingActionsForAdmin = new RealisationListForSelectingActionsForAdmin();
     MethodAddNewBook methodAddNewBook = new MethodAddNewBook();
     MethodChangeAmountBooksOnShelf methodChangeAmountBooksOnShelf = new MethodChangeAmountBooksOnShelf();
     MethodDeletBook methodDeletBook = new MethodDeletBook();
     MethodSearchBookByUniqueCode methodSearchBookByUniqueCode = new MethodSearchBookByUniqueCode();
     MethodSearchBookByItsTitle methodSearchBookByItsTitle = new MethodSearchBookByItsTitle();
     MenuForSelectingActions menuForSelectingActions = new MenuForSelectingActions();
-//    public void cycleForAdmin (){
-//        do {
-//            realisationListForSelectingActionsForAdmin.ImplementationListForSelectingActionsAdmin();
-//        } while (realisationListForSelectingActionsForAdmin.endFlag);
-//    }
+
+    public void cycleForAdmin (){
+        RealisationListForSelectingActionsForAdmin realisationListForSelectingActionsForAdmin = new RealisationListForSelectingActionsForAdmin();
+        do {
+            realisationListForSelectingActionsForAdmin.ImplementationListForSelectingActionsAdmin();
+        } while (realisationListForSelectingActionsForAdmin.endFlag);
+    }
 
     public void ImplementationListForSelectingActionsAdmin() {
         menuForSelectingActions.createdListForSelectingActionsForAdmin();
         int theItem = selectingAnItemFromTheList();
         switch (theItem) {
             case 1: {
-                menuForSelectingActions.showListForSelectingActions();
+                menuForSelectingActions.showBookMagazin();
                 break;
             }
             case 2:{
