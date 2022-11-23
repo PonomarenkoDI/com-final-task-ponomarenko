@@ -1,7 +1,0 @@
-package by_aqa_q1822_final_task.MethodsForRealisationList.MethodsForRealisationListForAdmin;
-
-import by_aqa_q1822_final_task.LoginWithDifferentAccessRrights.AnnotationAdminAndUser.Admin;
-
-@Admin
-public class MethodsForRealisationListForAdmin {
-}

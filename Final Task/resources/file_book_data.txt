@@ -1,0 +1,8 @@
+1,"Shantaram","Gregory David Roberts",2017,75.87$,10,987465
+2,"The little Prince","Antoine de Saint-Exupery",2008,23.55$,4,333421
+3,"The Catcher in the Rye","Jerome D. Salinger",2010,32.11$,6,123987
+4,"Dandelion wine","Ray Bradbury",2009,44.34$,7,888765
+5,"The Great Gatsby","Francis Scott Fitzgerald",2001,22.87$,4,776543
+6,"Pride and Prejudice","Jane Austen",2010,21.22$,5,554332
+7,"Green Mile","Stephen King",2002,43.43$,5,443443
+8,"451° Fahrenheit","Ray Bradbury",1999,31.22$,7,998432
