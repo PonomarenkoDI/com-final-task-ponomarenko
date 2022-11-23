@@ -12,7 +12,7 @@ public class MethodDeletBook extends Read_file_book_data {
 
     public void methodDeletedBook() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter the number of the book you want to delete");
+        System.out.println("Please enter the number of the book you want to delete: ");
         int books = sc.nextInt();
 
         try {

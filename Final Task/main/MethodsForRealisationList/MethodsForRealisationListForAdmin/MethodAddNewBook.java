@@ -16,7 +16,7 @@ public class MethodAddNewBook extends Read_file_book_data {
     List<String> bookMagazin = read_file_book_data.file_reader();
     public void methodAddedNewBook() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter all information to add a new book to the list");
+        System.out.println("Please enter all information to add a new book to the list: ");
         String addedNewBook = sc.nextLine();
 
         String filePath = System.getProperty("user.dir")+"\\Final Task\\resources\\file_book_data.txt";

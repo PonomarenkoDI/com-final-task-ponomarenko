@@ -11,7 +11,7 @@ public class MethodChangeAmountBooksOnShelf extends Read_file_book_data {
 
     public void changeAmountBooksOnShelf() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter the number of the book in which you want to change the number of books on the store:");
+        System.out.println("Please enter the number of the book in which you want to change the number of books on the store: ");
         int amountBooks = sc.nextInt();
         String s = bookMagazin.get(amountBooks-1);
         String[] array = s.split(",");

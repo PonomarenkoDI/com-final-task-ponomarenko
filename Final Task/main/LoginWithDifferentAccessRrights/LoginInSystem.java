@@ -1,7 +1,5 @@
 package main.LoginWithDifferentAccessRrights;
 
-
-
 import main.RealisationListForSelectingActions.RealisationListForSelectingActionsForAdmin;
 import main.RealisationListForSelectingActions.RealisationListForSelectingActionsForUser;
 
