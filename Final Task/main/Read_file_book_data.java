@@ -10,7 +10,7 @@ public class Read_file_book_data {
 
     public List file_reader() {
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(System.getProperty("user.dir")+"\\Final Task\\resources\\file_book_data.txt"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\Final Task\\resources\\file_book_data.txt"));
             while ((line = bufferedReader.readLine()) != null) {
                 bookMagazin.add(line);
             }
@@ -22,10 +22,10 @@ public class Read_file_book_data {
         return bookMagazin;
     }
 
-    public List fileWriter(){
+    public List fileWriter() {
         BufferedWriter bufferedWriter = null;
         try {
-            bufferedWriter = new BufferedWriter(new FileWriter(System.getProperty("user.dir")+"\\Final Task\\resources\\file_book_data.txt"));
+            bufferedWriter = new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "\\Final Task\\resources\\file_book_data.txt"));
             for (String str1 : bookMagazin
             ) {
                 bufferedWriter.write(str1);

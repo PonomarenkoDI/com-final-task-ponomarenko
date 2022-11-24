@@ -15,7 +15,7 @@ public class RealisationListForSelectingActionsForAdmin extends MenuForSelecting
     MethodSearchBookByItsTitle methodSearchBookByItsTitle = new MethodSearchBookByItsTitle();
     MenuForSelectingActions menuForSelectingActions = new MenuForSelectingActions();
 
-    public void cycleForAdmin (){
+    public void cycleForAdmin() {
         RealisationListForSelectingActionsForAdmin realisationListForSelectingActionsForAdmin = new RealisationListForSelectingActionsForAdmin();
         do {
             realisationListForSelectingActionsForAdmin.ImplementationListForSelectingActionsAdmin();
@@ -30,23 +30,23 @@ public class RealisationListForSelectingActionsForAdmin extends MenuForSelecting
                 menuForSelectingActions.showBookMagazin();
                 break;
             }
-            case 2:{
+            case 2: {
                 methodAddNewBook.methodAddedNewBook();
                 break;
             }
-            case 3:{
+            case 3: {
                 methodDeletBook.methodDeletedBook();
                 break;
             }
-            case 4:{
+            case 4: {
                 methodChangeAmountBooksOnShelf.changeAmountBooksOnShelf();
                 break;
             }
-            case 5:{
+            case 5: {
                 methodSearchBookByUniqueCode.MethodSearchBookUniCode();
                 break;
             }
-            case 6:{
+            case 6: {
                 methodSearchBookByItsTitle.MethodSearchBookByTitle();
                 break;
             }

@@ -5,6 +5,7 @@ import main.Read_file_book_data;
 
 import java.util.List;
 import java.util.Scanner;
+
 @Admin
 public class MethodDeletBook extends Read_file_book_data {
     Read_file_book_data read_file_book_data = new Read_file_book_data();
@@ -16,7 +17,7 @@ public class MethodDeletBook extends Read_file_book_data {
         int books = sc.nextInt();
 
         try {
-            bookMagazin.remove(books-1);
+            bookMagazin.remove(books - 1);
         } catch (IndexOutOfBoundsException exception) {
             System.err.println(exception.getMessage());
         }

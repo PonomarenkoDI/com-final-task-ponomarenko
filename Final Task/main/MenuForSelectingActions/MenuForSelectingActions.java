@@ -1,5 +1,7 @@
 package main.MenuForSelectingActions;
 
+import main.LoginWithDifferentAccessRrights.AnnotationAdminAndUser.Admin;
+import main.LoginWithDifferentAccessRrights.AnnotationAdminAndUser.User;
 import main.Read_file_book_data;
 
 import java.util.*;
@@ -10,7 +12,8 @@ public class MenuForSelectingActions {
     String ANSI_BLUE = "\u001B[34m";
     Map<Integer, String> map = new HashMap<>();
 
-     public void createdListForSelectingActionsForAdmin() {
+    @Admin
+    public void createdListForSelectingActionsForAdmin() {
         map.put(1, "View all information about available books in the store");
         map.put(2, "Add a new book to the list");
         map.put(3, "Remove a book from the list by serial number");
@@ -20,31 +23,34 @@ public class MenuForSelectingActions {
         map.put(7, "Exit:( Good bye!");
         showListForSelectingActions();
     }
+
+    @User
     public void createdListForSelectingActionsForUser() {
-         map.put(1, "View all information about available books in the store");
-         map.put(2, "Find a book by unique code");
-         map.put(3, "Find a book by its title");
-         map.put(4, "Exit:( Good bye!");
+        map.put(1, "View all information about available books in the store");
+        map.put(2, "Find a book by unique code");
+        map.put(3, "Find a book by its title");
+        map.put(4, "Exit:( Good bye!");
         showListForSelectingActions();
     }
 
     public void showBookMagazin() {
-        for (String str:bookMagazin) {
+        for (String str : bookMagazin) {
             System.out.println(str);
         }
-     }
+    }
 
     public int selectingAnItemFromTheList() {
         System.out.println(ANSI_BLUE + "Please select the item corresponding to the action you want to take: ");
         return new Scanner(System.in).nextInt();
     }
-    public void showListForSelectingActions(){
-        for (int i = 1; i <map.size()+1 ; i++) {
+
+    public void showListForSelectingActions() {
+        for (int i = 1; i < map.size() + 1; i++) {
             System.out.println(i + "." + map.get(i));
 
         }
     }
 
-    }
+}
 
 

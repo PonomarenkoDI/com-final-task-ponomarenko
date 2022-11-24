@@ -13,7 +13,7 @@ public class RealisationListForSelectingActionsForUser extends MenuForSelectingA
     MethodSearchBookByItsTitle methodSearchBookByItsTitle = new MethodSearchBookByItsTitle();
     MenuForSelectingActions menuForSelectingActions = new MenuForSelectingActions();
 
-    public void cycleForUser (){
+    public void cycleForUser() {
         RealisationListForSelectingActionsForUser realisationListForSelectingActionsForUser = new RealisationListForSelectingActionsForUser();
         do {
             realisationListForSelectingActionsForUser.ImplementationListForSelectingActionsUser();
@@ -28,7 +28,7 @@ public class RealisationListForSelectingActionsForUser extends MenuForSelectingA
                 menuForSelectingActions.showBookMagazin();
                 break;
             }
-            case 2:{
+            case 2: {
                 methodSearchBookByUniqueCode.MethodSearchBookUniCode();
                 break;
             }

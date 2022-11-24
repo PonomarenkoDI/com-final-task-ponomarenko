@@ -13,7 +13,7 @@ public class MethodChangeAmountBooksOnShelf extends Read_file_book_data {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter the number of the book in which you want to change the number of books on the store: ");
         int amountBooks = sc.nextInt();
-        String s = bookMagazin.get(amountBooks-1);
+        String s = bookMagazin.get(amountBooks - 1);
         String[] array = s.split(",");
 
         Scanner scan = new Scanner(System.in);
@@ -30,7 +30,7 @@ public class MethodChangeAmountBooksOnShelf extends Read_file_book_data {
             }
         }
 
-        bookMagazin.set(amountBooks-1, afterChanges);
+        bookMagazin.set(amountBooks - 1, afterChanges);
 
         read_file_book_data.fileWriter();
     }
