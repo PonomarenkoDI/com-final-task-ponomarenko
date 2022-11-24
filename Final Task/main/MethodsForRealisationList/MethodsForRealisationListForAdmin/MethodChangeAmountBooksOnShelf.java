@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class MethodChangeAmountBooksOnShelf extends Read_file_book_data {
-    Read_file_book_data read_file_book_data = new Read_file_book_data();
-    List<String> bookMagazin = read_file_book_data.file_reader();
+    private Read_file_book_data read_file_book_data = new Read_file_book_data();
+    private List<String> bookMagazin = read_file_book_data.file_reader();
 
     public void changeAmountBooksOnShelf() {
         Scanner sc = new Scanner(System.in);

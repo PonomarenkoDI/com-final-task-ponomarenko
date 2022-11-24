@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Read_file_book_data {
-    List<String> bookMagazin = new ArrayList<>();
-    String line;
+    private List<String> bookMagazin = new ArrayList<>();
+    private String line;
 
     public List file_reader() {
         try {

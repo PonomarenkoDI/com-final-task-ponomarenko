@@ -11,23 +11,24 @@ import main.MethodsForRealisationList.MethodsForRealisationListForUser.MethodSea
 public class RealisationListForSelectingActionsForUser extends MenuForSelectingActions {
     private boolean endFlag = true;
 
-    MethodSearchBookByTitle_User methodSearchBookByTitle_user = new MethodSearchBookByTitle_User();
-    MethodSearchBookByUniqueCode_User methodSearchBookByUniqueCode_user = new MethodSearchBookByUniqueCode_User();
-    MenuForSelectingActions menuForSelectingActions = new MenuForSelectingActions();
+    private MethodSearchBookByTitle_User methodSearchBookByTitle_user = new MethodSearchBookByTitle_User();
+    private MethodSearchBookByUniqueCode_User methodSearchBookByUniqueCode_user = new MethodSearchBookByUniqueCode_User();
+    private MenuForSelectingActions menuForSelectingActions = new MenuForSelectingActions();
 
     public void cycleForUser() {
         RealisationListForSelectingActionsForUser realisationListForSelectingActionsForUser = new RealisationListForSelectingActionsForUser();
         do {
-            realisationListForSelectingActionsForUser.ImplementationListForSelectingActionsUser();
+            realisationListForSelectingActionsForUser.implementationListForSelectingActionsUser();
         } while (realisationListForSelectingActionsForUser.endFlag);
     }
 
-    public void ImplementationListForSelectingActionsUser() {
+    public void implementationListForSelectingActionsUser() {
         menuForSelectingActions.createdListForSelectingActionsForUser();
         int theItem = selectingAnItemFromTheList();
         switch (theItem) {
             case 1: {
                 menuForSelectingActions.showBookMagazin();
+                System.out.println();
                 break;
             }
             case 2: {

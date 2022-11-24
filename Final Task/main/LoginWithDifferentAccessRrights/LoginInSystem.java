@@ -7,11 +7,11 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class LoginInSystem {
-    RealisationListForSelectingActionsForAdmin realisationListForSelectingActionsForAdmin = new RealisationListForSelectingActionsForAdmin();
-    RealisationListForSelectingActionsForUser realisationListForSelectingActionsForUser = new RealisationListForSelectingActionsForUser();
+    private RealisationListForSelectingActionsForAdmin realisationListForSelectingActionsForAdmin = new RealisationListForSelectingActionsForAdmin();
+    private RealisationListForSelectingActionsForUser realisationListForSelectingActionsForUser = new RealisationListForSelectingActionsForUser();
 
-    int passwordAdmin = 1234;
-    int passwordUser = 5555;
+    private int passwordAdmin = 1234;
+    private int passwordUser = 5555;
 
     public void methodForLoginInSystemAdmin() {
         try {

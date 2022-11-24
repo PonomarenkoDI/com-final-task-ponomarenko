@@ -8,26 +8,27 @@ import main.MethodsForRealisationList.MethodsForRealisationListForAdmin.*;
 @Admin
 public class RealisationListForSelectingActionsForAdmin extends MenuForSelectingActions {
     private boolean endFlag = true;
-    MethodAddNewBook methodAddNewBook = new MethodAddNewBook();
-    MethodChangeAmountBooksOnShelf methodChangeAmountBooksOnShelf = new MethodChangeAmountBooksOnShelf();
-    MethodDeletBook methodDeletBook = new MethodDeletBook();
-    MethodSearchBookByUniqueCode methodSearchBookByUniqueCode = new MethodSearchBookByUniqueCode();
-    MethodSearchBookByItsTitle methodSearchBookByItsTitle = new MethodSearchBookByItsTitle();
-    MenuForSelectingActions menuForSelectingActions = new MenuForSelectingActions();
+    private MethodAddNewBook methodAddNewBook = new MethodAddNewBook();
+    private MethodChangeAmountBooksOnShelf methodChangeAmountBooksOnShelf = new MethodChangeAmountBooksOnShelf();
+    private MethodDeletBook methodDeletBook = new MethodDeletBook();
+    private MethodSearchBookByUniqueCode methodSearchBookByUniqueCode = new MethodSearchBookByUniqueCode();
+    private MethodSearchBookByItsTitle methodSearchBookByItsTitle = new MethodSearchBookByItsTitle();
+    private MenuForSelectingActions menuForSelectingActions = new MenuForSelectingActions();
 
     public void cycleForAdmin() {
         RealisationListForSelectingActionsForAdmin realisationListForSelectingActionsForAdmin = new RealisationListForSelectingActionsForAdmin();
         do {
-            realisationListForSelectingActionsForAdmin.ImplementationListForSelectingActionsAdmin();
+            realisationListForSelectingActionsForAdmin.implementationListForSelectingActionsAdmin();
         } while (realisationListForSelectingActionsForAdmin.endFlag);
     }
 
-    public void ImplementationListForSelectingActionsAdmin() {
+    public void implementationListForSelectingActionsAdmin() {
         menuForSelectingActions.createdListForSelectingActionsForAdmin();
         int theItem = selectingAnItemFromTheList();
         switch (theItem) {
             case 1: {
                 menuForSelectingActions.showBookMagazin();
+                System.out.println();
                 break;
             }
             case 2: {

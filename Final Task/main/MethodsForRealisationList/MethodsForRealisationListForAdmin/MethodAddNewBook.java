@@ -13,8 +13,7 @@ import java.util.Scanner;
 
 @Admin
 public class MethodAddNewBook extends Read_file_book_data {
-    Read_file_book_data read_file_book_data = new Read_file_book_data();
-    List<String> bookMagazin = read_file_book_data.file_reader();
+    private Read_file_book_data read_file_book_data = new Read_file_book_data();
 
     public void methodAddedNewBook() {
         Scanner sc = new Scanner(System.in);

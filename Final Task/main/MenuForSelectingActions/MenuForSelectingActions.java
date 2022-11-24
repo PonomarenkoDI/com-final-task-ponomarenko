@@ -7,10 +7,10 @@ import main.Read_file_book_data;
 import java.util.*;
 
 public class MenuForSelectingActions {
-    Read_file_book_data read_file_book_data = new Read_file_book_data();
-    List<String> bookMagazin = read_file_book_data.file_reader();
-    String ANSI_BLUE = "\u001B[34m";
-    Map<Integer, String> map = new HashMap<>();
+    private Read_file_book_data read_file_book_data = new Read_file_book_data();
+    private List<String> bookMagazin = read_file_book_data.file_reader();
+    private String ANSI_BLUE = "\u001B[34m";
+    private Map<Integer, String> map = new HashMap<>();
 
     @Admin
     public void createdListForSelectingActionsForAdmin() {

@@ -9,9 +9,9 @@ import java.util.Scanner;
 
 @Admin
 public class MethodSearchBookByUniqueCode extends Read_file_book_data {
-    Read_file_book_data read_file_book_data = new Read_file_book_data();
-    List<String> bookMagazin = read_file_book_data.file_reader();
-    int i = 0;
+    private Read_file_book_data read_file_book_data = new Read_file_book_data();
+    private List<String> bookMagazin = read_file_book_data.file_reader();
+    private int i = 0;
 
     public void methodSearchBookUniCode() {
         try {
