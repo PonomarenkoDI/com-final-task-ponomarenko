@@ -12,7 +12,7 @@ public class MethodSearchBookByItsTitle extends Read_file_book_data {
     List<String> bookMagazin = read_file_book_data.file_reader();
     int i = 0;
 
-    public void MethodSearchBookByTitle() {
+    public void methodSearchBookByTitle() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter title book for search: ");
         String title = sc.nextLine();

@@ -43,11 +43,11 @@ public class RealisationListForSelectingActionsForAdmin extends MenuForSelecting
                 break;
             }
             case 5: {
-                methodSearchBookByUniqueCode.MethodSearchBookUniCode();
+                methodSearchBookByUniqueCode.methodSearchBookUniCode();
                 break;
             }
             case 6: {
-                methodSearchBookByItsTitle.MethodSearchBookByTitle();
+                methodSearchBookByItsTitle.methodSearchBookByTitle();
                 break;
             }
             case 7: {

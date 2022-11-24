@@ -4,13 +4,15 @@ import main.LoginWithDifferentAccessRrights.AnnotationAdminAndUser.User;
 import main.MenuForSelectingActions.MenuForSelectingActions;
 import main.MethodsForRealisationList.MethodsForRealisationListForAdmin.MethodSearchBookByItsTitle;
 import main.MethodsForRealisationList.MethodsForRealisationListForAdmin.MethodSearchBookByUniqueCode;
+import main.MethodsForRealisationList.MethodsForRealisationListForUser.MethodSearchBookByTitle_User;
+import main.MethodsForRealisationList.MethodsForRealisationListForUser.MethodSearchBookByUniqueCode_User;
 
 @User
 public class RealisationListForSelectingActionsForUser extends MenuForSelectingActions {
     private boolean endFlag = true;
 
-    MethodSearchBookByUniqueCode methodSearchBookByUniqueCode = new MethodSearchBookByUniqueCode();
-    MethodSearchBookByItsTitle methodSearchBookByItsTitle = new MethodSearchBookByItsTitle();
+    MethodSearchBookByTitle_User methodSearchBookByTitle_user = new MethodSearchBookByTitle_User();
+    MethodSearchBookByUniqueCode_User methodSearchBookByUniqueCode_user = new MethodSearchBookByUniqueCode_User();
     MenuForSelectingActions menuForSelectingActions = new MenuForSelectingActions();
 
     public void cycleForUser() {
@@ -29,11 +31,11 @@ public class RealisationListForSelectingActionsForUser extends MenuForSelectingA
                 break;
             }
             case 2: {
-                methodSearchBookByUniqueCode.MethodSearchBookUniCode();
+                methodSearchBookByUniqueCode_user.methodSearchBookUniCode();
                 break;
             }
             case 3: {
-                methodSearchBookByItsTitle.MethodSearchBookByTitle();
+                methodSearchBookByTitle_user.methodSearchBookByTitle();
                 break;
             }
             case 4: {

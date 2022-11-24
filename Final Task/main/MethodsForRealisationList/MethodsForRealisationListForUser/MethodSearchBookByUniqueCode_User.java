@@ -6,7 +6,7 @@ import main.MethodsForRealisationList.MethodsForRealisationListForAdmin.MethodSe
 @User
 public class MethodSearchBookByUniqueCode_User extends MethodSearchBookByUniqueCode {
     @Override
-    public void MethodSearchBookUniCode() {
-        super.MethodSearchBookUniCode();
+    public void methodSearchBookUniCode() {
+        super.methodSearchBookUniCode();
     }
 }

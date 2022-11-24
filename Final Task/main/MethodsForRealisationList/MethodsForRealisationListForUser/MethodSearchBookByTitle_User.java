@@ -6,7 +6,7 @@ import main.MethodsForRealisationList.MethodsForRealisationListForAdmin.MethodSe
 @User
 public class MethodSearchBookByTitle_User extends MethodSearchBookByItsTitle {
     @Override
-    public void MethodSearchBookByTitle() {
-        super.MethodSearchBookByTitle();
+    public void methodSearchBookByTitle() {
+        super.methodSearchBookByTitle();
     }
 }
