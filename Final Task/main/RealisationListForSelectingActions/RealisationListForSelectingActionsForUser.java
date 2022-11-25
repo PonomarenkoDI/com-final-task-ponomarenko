@@ -42,8 +42,15 @@ public class RealisationListForSelectingActionsForUser extends MenuForSelectingA
             case 4: {
                 endFlag = false;
             }
+            default: {
+                showErrorForUser();
+                implementationListForSelectingActionsUser();
+            }
 
         }
+    }
 
+    private void showErrorForUser() {
+        System.err.println("Wrong poin menu");
     }
 }

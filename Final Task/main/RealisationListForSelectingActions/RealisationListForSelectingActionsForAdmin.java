@@ -54,7 +54,14 @@ public class RealisationListForSelectingActionsForAdmin extends MenuForSelecting
             case 7: {
                 endFlag = false;
             }
+            default: {
+                showErrorForAdmin();
+                implementationListForSelectingActionsAdmin();
+            }
 
         }
+    }
+    private void showErrorForAdmin (){
+        System.err.println("Wrong poin menu");
     }
 }
