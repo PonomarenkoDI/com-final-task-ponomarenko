@@ -1,8 +1,8 @@
-package main.MenuForSelectingActions;
+package main.controller;
 
-import main.LoginWithDifferentAccessRrights.AnnotationAdminAndUser.Admin;
-import main.LoginWithDifferentAccessRrights.AnnotationAdminAndUser.User;
-import main.Read_file_book_data;
+import main.controller.AnnotationAdminAndUser.Admin;
+import main.controller.AnnotationAdminAndUser.User;
+import main.dao.Read_file_book_data;
 
 import java.util.*;
 
