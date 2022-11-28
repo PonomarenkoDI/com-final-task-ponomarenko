@@ -1,7 +1,7 @@
-package main.controller.loginWithDifferentAccessRrights;
+package main.by_com_final_task_ponomarenko.controller.loginWithDifferentAccessRrights;
 
-import main.service.realisationListForSelectingActions.RealisationListForSelectingActionsForAdmin;
-import main.service.realisationListForSelectingActions.RealisationListForSelectingActionsForUser;
+import main.by_com_final_task_ponomarenko.service.realisationListForSelectingActions.RealisationListForSelectingActionsForAdmin;
+import main.by_com_final_task_ponomarenko.service.realisationListForSelectingActions.RealisationListForSelectingActionsForUser;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

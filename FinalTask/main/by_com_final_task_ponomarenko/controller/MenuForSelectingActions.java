@@ -1,8 +1,8 @@
-package main.controller;
+package main.by_com_final_task_ponomarenko.controller;
 
-import main.controller.annotationAdminAndUser.Admin;
-import main.controller.annotationAdminAndUser.User;
-import main.dao.Read_file_book_data;
+import main.by_com_final_task_ponomarenko.controller.annotationAdminAndUser.Admin;
+import main.by_com_final_task_ponomarenko.controller.annotationAdminAndUser.User;
+import main.by_com_final_task_ponomarenko.dao.Read_file_book_data;
 
 import java.util.*;
 

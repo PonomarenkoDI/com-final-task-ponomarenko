@@ -1,9 +1,9 @@
-package main.service.realisationListForSelectingActions;
+package main.by_com_final_task_ponomarenko.service.realisationListForSelectingActions;
 
 
-import main.controller.annotationAdminAndUser.Admin;
-import main.controller.MenuForSelectingActions;
-import main.service.methodsForRealisationList.methodsForRealisationListForAdmin.*;
+import main.by_com_final_task_ponomarenko.controller.annotationAdminAndUser.Admin;
+import main.by_com_final_task_ponomarenko.controller.MenuForSelectingActions;
+import main.by_com_final_task_ponomarenko.service.methodsForRealisationList.methodsForRealisationListForAdmin.*;
 
 @Admin
 public class RealisationListForSelectingActionsForAdmin extends MenuForSelectingActions {

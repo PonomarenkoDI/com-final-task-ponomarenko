@@ -1,6 +1,6 @@
-package main.service.methodsForRealisationList.methodsForRealisationListForAdmin;
+package main.by_com_final_task_ponomarenko.service.methodsForRealisationList.methodsForRealisationListForAdmin;
 
-import main.dao.Read_file_book_data;
+import main.by_com_final_task_ponomarenko.dao.Read_file_book_data;
 
 import java.util.List;
 import java.util.Scanner;
