@@ -1,4 +1,4 @@
-package main.service.MethodsForRealisationList.MethodsForRealisationListForAdmin;
+package main.service.methodsForRealisationList.methodsForRealisationListForAdmin;
 
 import main.dao.Read_file_book_data;
 

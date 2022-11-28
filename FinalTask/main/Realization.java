@@ -1,6 +1,6 @@
 package main;
 
-import main.controller.LoginWithDifferentAccessRrights.LoginInSystem;
+import main.controller.loginWithDifferentAccessRrights.LoginInSystem;
 
 public class Realization {
     public static void main(String[] args) {

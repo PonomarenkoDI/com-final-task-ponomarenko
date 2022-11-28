@@ -1,7 +1,7 @@
 package main.controller;
 
-import main.controller.AnnotationAdminAndUser.Admin;
-import main.controller.AnnotationAdminAndUser.User;
+import main.controller.annotationAdminAndUser.Admin;
+import main.controller.annotationAdminAndUser.User;
 import main.dao.Read_file_book_data;
 
 import java.util.*;

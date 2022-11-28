@@ -1,7 +1,7 @@
-package main.controller.LoginWithDifferentAccessRrights;
+package main.controller.loginWithDifferentAccessRrights;
 
-import main.service.RealisationListForSelectingActions.RealisationListForSelectingActionsForAdmin;
-import main.service.RealisationListForSelectingActions.RealisationListForSelectingActionsForUser;
+import main.service.realisationListForSelectingActions.RealisationListForSelectingActionsForAdmin;
+import main.service.realisationListForSelectingActions.RealisationListForSelectingActionsForUser;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

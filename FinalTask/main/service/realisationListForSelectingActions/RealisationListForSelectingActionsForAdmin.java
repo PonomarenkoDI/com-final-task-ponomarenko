@@ -1,9 +1,9 @@
-package main.service.RealisationListForSelectingActions;
+package main.service.realisationListForSelectingActions;
 
 
-import main.controller.AnnotationAdminAndUser.Admin;
+import main.controller.annotationAdminAndUser.Admin;
 import main.controller.MenuForSelectingActions;
-import main.service.MethodsForRealisationList.MethodsForRealisationListForAdmin.*;
+import main.service.methodsForRealisationList.methodsForRealisationListForAdmin.*;
 
 @Admin
 public class RealisationListForSelectingActionsForAdmin extends MenuForSelectingActions {

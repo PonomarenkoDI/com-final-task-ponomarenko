@@ -1,9 +1,9 @@
-package main.service.RealisationListForSelectingActions;
+package main.service.realisationListForSelectingActions;
 
-import main.controller.AnnotationAdminAndUser.User;
+import main.controller.annotationAdminAndUser.User;
 import main.controller.MenuForSelectingActions;
-import main.service.MethodsForRealisationList.MethodsForRealisationListForUser.MethodSearchBookByTitle_User;
-import main.service.MethodsForRealisationList.MethodsForRealisationListForUser.MethodSearchBookByUniqueCode_User;
+import main.service.methodsForRealisationList.methodsForRealisationListForUser.MethodSearchBookByTitle_User;
+import main.service.methodsForRealisationList.methodsForRealisationListForUser.MethodSearchBookByUniqueCode_User;
 
 @User
 public class RealisationListForSelectingActionsForUser extends MenuForSelectingActions {

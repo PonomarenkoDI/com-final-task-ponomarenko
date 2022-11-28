@@ -1,7 +1,7 @@
-package main.service.MethodsForRealisationList.MethodsForRealisationListForAdmin;
+package main.service.methodsForRealisationList.methodsForRealisationListForAdmin;
 
 import main.dao.Read_file_book_data;
-import main.controller.AnnotationAdminAndUser.Admin;
+import main.controller.annotationAdminAndUser.Admin;
 
 import java.util.List;
 import java.util.Scanner;

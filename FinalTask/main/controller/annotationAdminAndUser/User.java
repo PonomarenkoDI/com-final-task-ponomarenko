@@ -1,4 +1,4 @@
-package main.controller.AnnotationAdminAndUser;
+package main.controller.annotationAdminAndUser;
 
 import java.lang.annotation.Retention;
 

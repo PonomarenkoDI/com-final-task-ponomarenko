@@ -1,6 +1,6 @@
-package main.service.MethodsForRealisationList.MethodsForRealisationListForAdmin;
+package main.service.methodsForRealisationList.methodsForRealisationListForAdmin;
 
-import main.controller.AnnotationAdminAndUser.Admin;
+import main.controller.annotationAdminAndUser.Admin;
 import main.dao.Read_file_book_data;
 
 import java.util.InputMismatchException;
